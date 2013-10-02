@@ -1,0 +1,11 @@
+﻿<Window x:Class="KinectController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="519" Width="995" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Viewbox Margin="646,0,0,0">
+            <TextBlock Name="textBlock" FontFamily="Lucida Console" FontSize="18"  Text="Initializing..."/>
+        </Viewbox>
+        <Image Height="480" HorizontalAlignment="Left" Name="depthImage" Stretch="Fill" VerticalAlignment="Top" Width="640" />
+    </Grid>
+</Window>
